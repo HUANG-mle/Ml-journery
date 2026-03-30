@@ -1,0 +1,12 @@
+# My first Python file
+# Huang - Future MLE
+
+name = "Huang"
+goal = "Machine Learning Engineer"
+year = 2030
+
+print("Hello, World!")
+print(f"My name is {name}")
+print(f"My goal is to become a {goal}")
+print(f"Target year: {year}")
+print("Let's get it! 🚀")
