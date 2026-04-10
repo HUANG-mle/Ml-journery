@@ -1,0 +1,93 @@
+=========================
+Date           : 10 - 04 - 2026
+Study duration : 60 minutes 
+Main topic     : File Handling
+
+1. Concepts I learned today
+-----------------------------
+- open("file.txt", "w") → write/create a file
+- open("file.txt", "r") → read a file
+- file.write() → write content to file
+- file.read()  → read content from file
+- with statement → pro way, file closes automatically
+
+2. New things I discovered
+---------------------------
+- Data can be saved permanently using file handling
+- "w" mode overwrites existing content
+- "r" mode reads existing content
+- with open() is cleaner than open() + close()
+
+3. Code I wrote today
+----------------------
+kalimat = input("hal yang lo sampain: ")
+with open("catatan.txt", "w") as file:
+    file.write(kalimat)
+with open("catatan.txt", "r") as file:
+    isi = file.read()
+    print(isi)
+
+4. Errors I found & how I fixed them
+Put variable "kalimat" as the filename
+   → Python looked for a file named "huang/huna"
+   → Fix: filename must be "catatan.txt" not a variable
+
+2. Forgot to add "w" or "r" mode in open()
+   → Fix: always specify the mode
+
+
+5. Things I still don't understand
+gak ada 
+
+
+6. My understanding score today (1-10)
+7,5/10
+
+
+======================================
+JURNAL BELAJAR — DAY 10
+======================================
+
+Tanggal        : 
+Durasi belajar : 
+Materi utama   : File Handling
+
+1. Konsep yang gw pelajari hari ini
+------------------------------------
+- open("file.txt", "w") → tulis/buat file
+- open("file.txt", "r") → baca file
+- file.write() → isi file dengan konten
+- file.read()  → baca isi file
+- with statement → cara pro, file otomatis ketutup
+
+2. Hal baru yang gw tau
+------------------------
+- Data bisa disimpen permanen pake file handling
+- Mode "w" → nulis/timpa isi lama
+- Mode "r" → baca isi file
+- with open() lebih rapi dari open() + close()
+
+3. Kode yang gw tulis hari ini
+-------------------------------
+kalimat = input("hal yang lo sampain: ")
+with open("catatan.txt", "w") as file:
+    file.write(kalimat)
+with open("catatan.txt", "r") as file:
+    isi = file.read()
+    print(isi)
+
+4. Error yang gw temuin & cara gw fixnya
+
+aruh variabel "kalimat" di nama file
+   → Python nyari file bernama "huang/huna"
+   → Fix: nama file harus "catatan.txt" bukan variabel
+
+2. Lupa kasih mode "w" atau "r" di open()
+   → Fix: selalu kasih mode nya
+
+5. Yang masih bikin gw bingung
+-------------------------------
+
+
+6. Skor pemahaman gw hari ini (1-10)
+7,5/10
