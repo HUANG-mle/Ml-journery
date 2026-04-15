@@ -1,0 +1,62 @@
+# Day 1 - Programming Fundamentals (Function, Loop, Conditional)
+
+## What I Learned
+- Functions are used to create reusable logic
+- `return` is used to send results, not display them
+- `print` is used to display output to the user
+- Loops (`for`) are used for iteration
+- `range(start, stop)` → stops before `stop`
+- Conditionals (`if, elif, else`) are used for decision making
+
+---
+
+## Mistakes I Made
+- Misunderstood how `if-elif` works (didn't realize it stops at the first true condition)
+- Misused modulo operator (`%`)
+- Used `% 7` for odd numbers (should be `% 2`)
+- Mixed data types (int + string → error)
+- Called function outside the loop incorrectly
+- Didn't understand execution flow
+
+---
+
+## Key Insights
+- Logic is more important than syntax
+- Always think about the program flow before coding
+- Don’t randomly change numbers/operators without understanding why
+- Loop + conditional = foundation of problem solving
+- Errors are part of the learning process
+
+---
+
+## Mini Projects
+1. Number checker:
+   - zero
+   - even/odd
+   - positive/negative
+
+2. Sum of even numbers from 1 to n
+
+3. Sum of odd numbers from 1 to n
+
+4. User-based selection program:
+   - 1 = even
+   - 2 = odd
+
+---
+
+## Biggest Mistake Today
+I relied too much on guessing instead of understanding the logic.
+
+---
+
+## Improvement Plan
+- Focus on understanding, not just results
+- Avoid rushing when modifying code
+- Always verify logic before running the program
+
+---
+
+## Conclusion
+Today I learned the core fundamentals of programming:
+functions, loops, and conditionals. I started to understand how programs work logically, not just how to write code.
