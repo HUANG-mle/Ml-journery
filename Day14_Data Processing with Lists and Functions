@@ -1,0 +1,120 @@
+# Day 2: Data Processing with Lists & Functions
+
+## What I Learned
+- Lists are used to store multiple data in one variable
+- Accessing data using index (starting from 0)
+- Using loops (`for`) to iterate through list items
+- Using conditionals (`if`) to filter data
+- Using an accumulator (`total`) to sum values
+- Using `.append()` to store filtered results in a new list
+- Functions can take lists as input
+- Functions must use loops to process list data
+- `return` sends results and must be placed outside the loop
+
+---
+
+## Mistakes I Made
+- Treated a list as a single value instead of multiple items
+- Placed `return` inside the loop (function stopped too early)
+- Summed values at the end instead of during iteration
+- Confused variable roles (`item` vs `angka`)
+- Did not understand that `return` stops function execution
+
+---
+
+## Key Insights
+- A list is a collection, not a single value
+- To process a list → you must loop
+- `return` stops the function immediately
+- Code position affects program behavior
+- Loop + conditional + list = foundation of data processing
+
+---
+
+## Mini Projects
+1. Print all elements in a list
+2. Sum all numbers in a list
+3. Filter even numbers from a list
+4. Store filtered results in a new list
+5. Build a function to:
+   - extract even numbers
+   - calculate their sum
+   - return both results
+
+---
+
+## Biggest Mistake Today
+I treated a list as a single value instead of a collection that must be processed one item at a time.
+
+---
+
+## Improvement Plan
+- Focus more on data flow
+- Avoid rushing while coding
+- Pay attention to `return` placement
+- Better understand variable roles
+
+---
+
+## Conclusion
+Today I learned how to process data using lists, loops, and functions. I started to understand how data flows through a program: from input, to processing, to output.
+# Day 2: Data Processing dengan List & Function
+
+## Apa yang Saya Pelajari
+- List digunakan untuk menyimpan banyak data dalam satu variabel
+- Mengakses data menggunakan index (dimulai dari 0)
+- Menggunakan loop (`for`) untuk mengambil data satu per satu dari list
+- Menggunakan conditional (`if`) untuk melakukan filtering data
+- Menggunakan accumulator (`total`) untuk menjumlahkan data
+- Menggunakan `.append()` untuk menyimpan hasil ke list baru
+- Function dapat menerima list sebagai input
+- Function harus menggunakan loop untuk memproses isi list
+- `return` digunakan untuk mengembalikan hasil dan harus diletakkan di luar loop
+
+---
+
+## Kesalahan Saya Hari Ini
+- Menganggap list bisa langsung diproses tanpa loop
+- Menaruh `return` di dalam loop (function berhenti terlalu cepat)
+- Menjumlahkan data di akhir, bukan selama loop berjalan
+- Salah memahami peran variabel (`item` vs `angka`)
+- Tidak memahami bahwa function berhenti saat `return` dipanggil
+
+---
+
+## Insight Penting
+- List adalah kumpulan data, bukan satu nilai
+- Untuk memproses list → harus loop
+- `return` menghentikan function
+- Posisi kode sangat mempengaruhi hasil
+- Loop + conditional + list = dasar data processing
+
+---
+
+## Mini Project
+1. Menampilkan semua isi list
+2. Menjumlahkan semua angka dalam list
+3. Filtering angka genap dari list
+4. Menyimpan hasil filtering ke list baru
+5. Membuat function untuk:
+   - mengambil angka genap
+   - menghitung totalnya
+   - mengembalikan hasil
+
+---
+
+## Kesalahan Terbesar Saya Hari Ini
+Saya menganggap list seperti satu nilai, padahal list adalah kumpulan data yang harus diproses satu per satu.
+
+---
+
+## Perbaikan untuk Besok
+- Lebih fokus pada alur data (flow)
+- Tidak terburu-buru menulis kode
+- Memastikan posisi `return` dan loop benar
+- Lebih teliti dalam memahami peran variabel
+
+---
+
+## Kesimpulan
+Hari ini saya belajar bagaimana memproses data menggunakan list, loop, dan function. Saya mulai memahami bagaimana data diambil, difilter, dan diolah dalam program.
