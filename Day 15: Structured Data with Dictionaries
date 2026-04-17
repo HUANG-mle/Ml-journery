@@ -1,0 +1,66 @@
+# Day 3: Structured Data with Dictionaries
+
+## What I Learned
+
+Today I learned that dictionaries are used to store data using key-value pairs. Unlike lists that use numeric indexes, dictionaries use named keys, which makes the data easier to understand and organize. I practiced accessing values using keys, adding new data into a dictionary, and displaying dictionary contents using a loop.
+
+After that, I started understanding that data can become more complex when dictionaries are stored inside a list. This structure is called a list of dictionaries, and it looks much closer to real-world data used in machine learning. I learned that each item inside the list can represent one object while still keeping the same structure.
+
+I also practiced filtering data using conditional statements. By using `if`, I could select only specific records, such as students who are 16 years old or older. After filtering the data, I counted how many records matched the condition, which helped me understand the basics of simple data processing.
+
+---
+
+## Mistakes I Made
+
+My biggest mistake today was still mixing normal variables with data stored inside dictionaries. At one point, I printed the entire dictionary when I only needed a specific field. I also placed `return` inside a loop, which caused the function to stop too early. Another thing I noticed was that my focus started dropping when the learning session became too long, and that made me write code too quickly.
+
+---
+
+## Important Insight
+
+From today's session, I started understanding that programming is not only about producing output, but also about how data is stored, read, selected, and processed. I began seeing that lists can store multiple objects, while dictionaries store the details of each object. This way of thinking is important because it is very close to how real datasets work.
+
+---
+
+## Improvement for Tomorrow
+
+Tomorrow I need to focus more on understanding functions that work with structured data because that part is still not stable. I also need to pay closer attention to code placement and avoid forcing long study sessions when my concentration starts dropping. My goal is not only to make the code work, but to understand how data flows inside the program.
+
+---
+
+## Conclusion
+
+Today I learned how structured data can be stored using dictionaries and processed with loops and conditionals. I am starting to understand data structures that are closer to real-world datasets, which is an important foundation for machine learning in the future.
+# Day 3: Structured Data with Dictionaries
+
+## Apa yang Saya Pelajari
+
+Hari ini saya belajar bahwa dictionary digunakan untuk menyimpan data yang memiliki hubungan antara key dan value. Berbeda dengan list yang menggunakan index angka, dictionary menggunakan nama key sehingga data lebih mudah dibaca. Saya belajar cara mengambil data menggunakan key, menambahkan data baru ke dalam dictionary, dan menampilkan isi dictionary dengan loop.
+
+Setelah itu saya memahami bahwa data bisa menjadi lebih kompleks ketika dictionary disimpan di dalam list. Struktur seperti ini disebut list of dictionaries, dan bentuk ini mulai mirip dengan data nyata yang sering digunakan dalam machine learning. Saya belajar bagaimana setiap item di dalam list bisa berisi informasi yang berbeda tetapi tetap memiliki struktur yang sama.
+
+Saya juga mempelajari bagaimana memfilter data menggunakan conditional. Dengan menggunakan `if`, saya bisa memilih hanya data tertentu, misalnya siswa yang berumur 16 tahun ke atas. Setelah itu saya menghitung jumlah data yang memenuhi kondisi tersebut sehingga saya mulai memahami dasar pemrosesan data sederhana.
+
+---
+
+## Kesalahan Saya Hari Ini
+
+Kesalahan terbesar saya hari ini adalah masih mencampur antara variabel biasa dengan data yang ada di dalam dictionary. Saya sempat menampilkan seluruh dictionary padahal yang dibutuhkan hanya field tertentu. Selain itu saya masih salah menempatkan `return` di dalam loop sehingga function berhenti terlalu cepat. Saya juga menyadari bahwa ketika sesi terlalu panjang, fokus saya mulai turun dan saya jadi menulis kode dengan terburu-buru.
+
+---
+
+## Insight Penting
+
+Dari sesi hari ini saya mulai memahami bahwa program tidak hanya soal menampilkan output, tetapi tentang bagaimana data disusun, dibaca, dipilih, dan diproses. Saya mulai melihat bahwa list bisa digunakan untuk menyimpan banyak object, sedangkan dictionary menyimpan detail dari setiap object. Cara berpikir ini penting karena sangat dekat dengan bagaimana dataset bekerja di dunia nyata.
+
+---
+
+## Perbaikan untuk Besok
+
+Besok saya perlu lebih fokus memahami function yang bekerja dengan structured data karena bagian itu masih belum stabil. Saya juga perlu lebih teliti terhadap posisi kode dan tidak memaksakan belajar terlalu lama saat fokus mulai menurun. Tujuan saya bukan hanya membuat kode berjalan, tetapi memahami alur data di dalam program.
+
+---
+
+## Kesimpulan
+
+Hari ini saya belajar bagaimana structured data disimpan menggunakan dictionary dan bagaimana data tersebut diproses menggunakan loop dan conditional. Saya mulai memahami bentuk data yang lebih dekat dengan real-world dataset, yang merupakan fondasi penting untuk machine learning ke depannya.
