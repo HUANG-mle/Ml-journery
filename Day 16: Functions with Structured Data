@@ -1,0 +1,47 @@
+# Day 4: Functions with Structured Data
+
+## What I Learned
+
+Today I learned how functions can work with structured data such as a list of dictionaries. Previously, I only understood how to process simple values, but today I started understanding that a function can receive a collection of data, process each item inside it, and return a result.
+
+I practiced using a function to loop through a list of student data. Each student was stored as a dictionary, and the entire dataset was stored inside a list. Inside the function, I used a loop to access each dictionary one by one, extracted specific fields such as the student's name, and counted how many records were processed.
+
+This helped me understand that functions are not just reusable code blocks, but can also act as small processors that take input data, work through it step by step, and produce a clean result. I also became more aware that the placement of code inside a function is very important because a small mistake in indentation or return placement can completely change the behavior of the program.
+
+---
+
+## Mistakes I Made
+
+My biggest mistake today was not always following the exact requirement of the task. In some parts, I repeated the previous logic instead of solving the new problem. I also noticed that small mistakes such as inconsistent variable names can create errors even when the overall logic is correct.
+
+Another mistake was focusing too much on making the code run instead of making sure the code matched the requested output exactly. I realized that writing working code is only part of programming, while writing precise code is a different skill that I still need to improve.
+
+---
+
+## Important Insight
+
+The most important thing I learned today is that a function can become a reusable data processor. Instead of writing the same logic repeatedly, I can place the logic inside a function and call it whenever I need it.
+
+I also started understanding the relationship between:
+- list as a collection of objects
+- dictionary as one object
+- function as the processor
+- return as the result sender
+
+This way of thinking feels much closer to how real software handles data.
+
+---
+
+## Improvement for Tomorrow
+
+Tomorrow I need to focus more on precision. My logic is improving, but I still need to become more careful when reading requirements and naming variables consistently.
+
+I also need to slow down slightly before writing code so I can think about the data flow first instead of immediately typing syntax.
+
+My next goal is to learn how to transform structured data into a new format instead of only reading or counting it.
+
+---
+
+## Conclusion
+
+Today I learned how functions can process structured data using loops and dictionaries. I am starting to understand that functions are not just for organizing code, but for building reusable logic that can handle real-world style data.
