@@ -1,0 +1,53 @@
+# Day 17: Data Transformation with Functions
+
+## What I Learned
+
+Today I learned how to transform structured data using functions. In previous lessons, I mainly focused on reading data, filtering records, and counting results. Today was different because I started learning how to take existing data and create a completely new version of that data.
+
+I worked with a list of dictionaries where each dictionary represented one student. Inside the function, I looped through each student, checked the student's age, and created a new dictionary with a different field based on a condition. Instead of only displaying the original data, I learned how to build a new list that contained transformed information.
+
+This helped me understand that functions can do more than organize code. A function can also act as a reusable processor that receives raw data, applies logic, and returns cleaner or more useful data. That concept feels much closer to how real software handles information.
+
+---
+
+## Mistakes I Made
+
+My biggest mistake today was still missing small details in the task requirements. My logic was correct, but I sometimes used the wrong key names even when the output was almost correct. I also noticed that when I feel comfortable with the overall idea, I can still lose points because of small precision mistakes.
+
+Another thing I noticed is that I sometimes rely on examples too much before fully trusting my own understanding. Even though I typed the code myself, I still need to become more independent when solving slightly different versions of the same problem.
+
+---
+
+## Important Insight
+
+The most important thing I learned today is that programming is not only about reading data. It is also about changing data into a better format.
+
+I started understanding this process:
+
+raw data → process → transformed data
+
+That way of thinking is important because many real systems work by receiving data, transforming it, and then sending it somewhere else.
+
+I also started seeing that:
+- lists can store multiple objects
+- dictionaries can represent one object
+- functions can transform those objects
+- return can send the new data back
+
+That structure feels much closer to real development.
+
+---
+
+## Improvement for Tomorrow
+
+Tomorrow I need to focus more on precision. My logic is improving, but small mistakes in naming fields or following exact requirements still slow me down.
+
+I also need to rely less on examples and trust my own thinking more. My goal is to understand the pattern deeply enough that I can rebuild it without needing to look at previous code first.
+
+The next thing I need to improve is learning how to search for data and update specific values inside structured data.
+
+---
+
+## Conclusion
+
+Today I learned how to transform structured data using functions. Instead of only reading existing information, I can now create a new version of data based on conditions. This feels like an important step because it moves me closer to understanding how real programs process information.
