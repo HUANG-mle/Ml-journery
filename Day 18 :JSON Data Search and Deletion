@@ -1,0 +1,28 @@
+Deletion
+What I Learned
+Today I learned how to work with JSON files in Python more deeply by searching for specific data and removing it from a stored list. Previously, I only understood how to read JSON files and add new data, but today I started understanding how to modify existing stored data more carefully.
+I practiced opening a JSON file, loading its content into Python, and looping through each dictionary stored inside the list. After that, I learned how to compare a specific key such as "nama" to find the target data. Once I understood the search process, I moved into deleting data by creating a new list that only kept the records that did not match the target name.
+This helped me understand that deleting data inside JSON is not done by removing it directly from the file itself. Instead, Python reads the full data into memory, filters the data, and then writes the updated version back into the file.
+Mistakes I Made
+My biggest mistake today was confusing the difference between a list object and a dictionary object. At first, I tried to use append() in the wrong situation because I did not fully pay attention to the actual data structure that was loaded from the JSON file.
+I also mixed up function parameters several times, especially when using json.dump(). I accidentally treated the file object as the data object, which caused errors that made the file invalid. Because of that, I had to reset the JSON file structure before continuing the exercise.
+Another mistake was trying to store the result of append() into a variable, even though append() changes the list directly and returns nothing. This showed me that understanding how methods behave is just as important as knowing their names.
+Important Insight
+The most important thing I learned today is that JSON data behaves like a small database when handled correctly.
+I started understanding the relationship between:
+JSON file as persistent storage
+list as the collection of records
+dictionary as a single record
+loop as the data scanner
+condition as the filter
+json.dump() as the save process
+This made the exercise feel closer to real programming instead of just simple syntax practice.
+Improvement for Tomorrow
+Tomorrow I need to focus more on understanding what type of data I am working with before writing code. Many of my mistakes happened because I rushed into writing syntax before checking whether the variable was a list, dictionary, or file object.
+I also need to become more consistent with method usage so I stop confusing:
+append()
+load()
+dump()
+My next goal is to learn how to organize these JSON operations into reusable functions so the code becomes cleaner and closer to real project structure.
+Conclusion
+Today I learned how to search and delete data inside a JSON file using Python. More importantly, I started understanding that working with stored data requires not only syntax knowledge, but also a clear understanding of data structure, method behavior, and program flow. This feels like an important step toward writing more practical Python programs.
