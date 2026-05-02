@@ -1,0 +1,66 @@
+Day 19: Building a Mini CRUD System with JSON
+
+What I Learned
+
+Today I successfully built a simple CRUD (Create, Read, Update, Delete) system using Python and JSON files. This is the first time I worked with data persistence, where data is stored outside the program and can be modified across multiple runs.
+
+I learned how to structure a program using multiple functions, each with a single responsibility. Instead of writing everything in one place, I separated the logic into different parts:
+
+- loading data from a file
+- saving data back to the file
+- searching for specific data
+- adding new data
+- deleting existing data
+
+This made the program cleaner and easier to understand. I also started to see how real applications manage data step by step.
+
+---
+
+Mistakes I Made
+
+I made several small but important mistakes during this process. Most of them were related to syntax and logic accuracy.
+
+One common mistake was mixing up function parameters, such as reversing arguments in "json.dump()" or using undefined variables. I also repeated unnecessary steps, like reopening and loading the file inside functions that already received the data as a parameter.
+
+Another major mistake was incorrect logic when filtering data. For example, I initially used the wrong condition ("==" instead of "!=") when trying to delete data, which caused the program to behave incorrectly.
+
+I also struggled with small syntax issues such as missing commas, incorrect indentation, and wrong function naming. Even though these mistakes were small, they caused the program to fail, which taught me that precision is critical in programming.
+
+---
+
+Important Insight
+
+The biggest insight today is understanding how to manage data flow in a program.
+
+I learned that:
+
+- the file is the data source
+- functions act as processors
+- data should be loaded once and reused
+- each function should have a single responsibility
+
+This separation makes the code more scalable and easier to debug.
+
+I also realized that writing working code is not enough. Clean structure and correct logic are just as important.
+
+---
+
+Improvement for Tomorrow
+
+For the next step, I need to improve my accuracy. Most of my mistakes are not about understanding concepts, but about being careless with syntax and small details.
+
+I also want to start thinking more before writing code, especially about:
+
+- what data is being used
+- where the data comes from
+- what each function is responsible for
+
+Another improvement area is avoiding repeated logic and writing more efficient code.
+
+---
+
+Conclusion
+
+Today I built my first mini CRUD system using Python and JSON. This is a major step forward because I am no longer just writing simple scripts, but starting to build structured programs that handle real-world style data.
+
+This experience helped me understand how functions, lists, dictionaries, and file handling work together as a system.
