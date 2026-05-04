@@ -1,0 +1,140 @@
+📘 Day 20 – Python Mini Project (Student Data CRUD)
+
+🎯 Objective
+
+Build a simple Python program to manage student data using a JSON file.
+Main features: create, read, search, and delete student records.
+
+---
+
+📚 What I Learned
+
+1. Functions
+
+I learned how to organize code into reusable functions:
+
+- "load_data()" → read data from JSON file
+- "save_data()" → write data to JSON file
+- "cari_siswa()" → search student by name
+- "tambah_siswa()" → add new student
+- "hapus_siswa()" → delete student
+
+➡️ Insight:
+Functions make the code cleaner, reusable, and easier to maintain.
+
+---
+
+2. Conditional Statements (if / elif / else)
+
+I used conditions to control program flow based on user input.
+
+➡️ Insight:
+The program can make decisions dynamically.
+
+---
+
+3. Loop (while True)
+
+I used a loop to keep the program running until the user chooses to exit.
+
+➡️ Insight:
+This allows building interactive CLI applications.
+
+---
+
+4. JSON as Data Storage
+
+I used a JSON file ("siswa.json") as a simple database.
+
+Example:
+
+[
+    {
+        "nama": "budi",
+        "umur": 16
+    }
+]
+
+➡️ Insight:
+JSON can act as lightweight persistent storage.
+
+---
+
+5. Error Handling (try-except)
+
+Used to validate user input (especially numeric values).
+
+➡️ Insight:
+Prevents the program from crashing due to invalid input.
+
+---
+
+6. Real Debugging Experience
+
+I faced issues where:
+
+- The program seemed “empty”
+- It was actually waiting for user input
+- JSON file was empty or not properly loaded
+
+➡️ Insight:
+Not all problems come from code — sometimes from:
+
+- data
+- file handling
+- environment
+
+---
+
+⚠️ Challenges
+
+- Indentation errors
+- Function definition mistakes
+- JSON file being empty
+- Misunderstanding program flow
+- Confusing “waiting input” with “not working”
+
+---
+
+🧠 Key Takeaways
+
+Interactive programs wait for user input
+Debugging is not always about fixing code
+Sometimes the issue is data or environment
+
+---
+
+🚀 Next Improvements
+
+- [ ] Add UPDATE feature (edit student data)
+- [ ] Add delete confirmation (y/n)
+- [ ] Prevent duplicate names
+- [ ] Improve UI/output formatting
+
+---
+
+💬 Reflection
+
+Today was challenging and mentally exhausting due to multiple errors and confusion.
+However, I successfully built a working program.
+
+I realized:
+
+- Consistency is more important than speed
+- Debugging is part of the learning process
+- Real understanding comes after struggling
+
+---
+
+📊 Status
+
+CRUD System: 90% Complete
+
+---
+
+🔥 Conclusion
+
+I successfully built a simple CRUD application using Python and JSON.
+This is a foundational step toward backend development and data handling.
+
+---
