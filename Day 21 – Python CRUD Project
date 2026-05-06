@@ -1,0 +1,35 @@
+📅 Day 21 – Python CRUD Project
+
+🧠 What I Learned
+
+- I built a CRUD system using JSON
+- I learned how to use functions properly
+- I understand how while loop controls the program
+- I fixed indentation errors in Python
+
+⚠️ Mistakes I Made
+
+- Indentation errors (very important in Python)
+- Forgot to call functions properly
+- Mixed tab and spaces
+- Logic errors in update function
+
+🔥 Key Insight
+
+Indentation is not just formatting, it controls logic in Python.
+
+🚀 What I Built
+
+A CLI program that can:
+
+- Add student
+- Show data
+- Search student
+- Delete student
+- Update student
+
+🎯 Tomorrow Plan
+
+- Improve code structure
+- Add validation
+- Make program cleaner
