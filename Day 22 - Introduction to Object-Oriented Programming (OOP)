@@ -1,0 +1,40 @@
+Day 22 - Introduction to Object-Oriented Programming (OOP)
+
+Today I continued my Python learning journey and started learning the basics of Object-Oriented Programming (OOP).
+
+At first, I created a class called Mobil with two attributes: merk and tahun. Through this exercise, I learned how a class acts as a blueprint and how objects can be created from that blueprint.
+
+I also learned about:
+
+- Classes
+- Objects
+- Attributes
+- Methods
+- The use of self
+- Constructors (init)
+
+After creating the basic class, I added an info() method to display the car's brand and year.
+
+Next, I created an umur_mobil() method that calculates the age of a car using the current year. While doing this, I made a small mistake by using curly braces in a mathematical operation, but I learned the difference between f-strings and normal calculations.
+
+Finally, I completed the ganti_merk() method. This challenge helped me understand how object attributes can be modified after an object is created. I also learned the difference between working with dictionaries and working with objects, which was confusing at first but became much clearer after practice.
+
+Today's achievement:
+
+- Successfully built a Mobil class
+- Added multiple methods
+- Calculated values using object attributes
+- Updated object attributes
+- Improved my understanding of OOP fundamentals
+
+Challenges:
+
+- Understanding self
+- Distinguishing between dictionaries and objects
+- Reading and fixing NameError messages
+
+Reflection:
+Today reminded me that making mistakes is a normal part of programming. Most of my errors came from misunderstanding concepts, not from a lack of effort. By debugging and fixing them one by one, I gained a better understanding of how Python classes and objects work.
+
+Tomorrow's Goal:
+Build a Siswa class from scratch and continue strengthening my OOP foundation.
